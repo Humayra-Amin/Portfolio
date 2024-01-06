@@ -114,3 +114,12 @@ main{
     text-align: center;
 }
 
+#sec-des{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
