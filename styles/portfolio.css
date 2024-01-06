@@ -91,6 +91,11 @@ nav a {
     margin-bottom: 20px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .banner-content {
     max-width: 500px;
 }
@@ -102,3 +107,10 @@ nav a {
     background: #FFF8F3;
     margin: 130px 0;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
