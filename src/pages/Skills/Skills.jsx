@@ -47,10 +47,10 @@ const Skills = () => {
 
     return (
         <div className="container mx-auto p-6 min-h-screen">
-            <h1 className="text-5xl font-bold text-center text-yellow-700 my-12 playfair">My Skills</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-yellow-700 my-12 playfair">My Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-yellow-400 p-6 rounded-lg">
                 {skills.map((skill, index) => (
-                    <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center border-2 border-yellow-700">
+                    <div data-aos="zoom-out" data-aos-duration="1000" key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center border-2 border-yellow-700">
                         <div className="text-6xl mb-4">{skill.icon}</div>
                         <h2 className="text-2xl font-bold text-yellow-700 mb-4 playfair">{skill.title}</h2>
                         <p className="text-gray-700 text-center merriweather">{skill.description}</p>

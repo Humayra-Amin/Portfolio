@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/profile.jpg" />
+        <link rel="icon" href="/public/profile.png" />
         <meta property="og:image" content="/profile.jpg" />
       </Head>
       <body className={inter.className}>

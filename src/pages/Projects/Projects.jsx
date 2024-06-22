@@ -9,7 +9,7 @@ const projects = [
     },
     {
         title: "Study Bizz",
-        description: "The Study Bizz is a web application designed to facilitate collaborative learning experiences for students. It provides a virtual space where users can create, manage, and participate in group study sessions, share resources, and engage in interactive learning activities",
+        description: "The Study Bizz is a web application designed to facilitate collaborative learning experiences for students. It provides a virtual space where users can create, manage, and participate in group study sessions, share resources, and engage in interactive learning activities.",
         liveLink: "https://online-group-study-d5764.web.app/",
         clientLink: "https://github.com/Humayra-Amin/Online-Group-Study-client",
         serverLink: "https://github.com/Humayra-Amin/Online-Group-Study-server",
@@ -17,7 +17,7 @@ const projects = [
     },
     {
         title: "Paw Pets",
-        description: "This project is a web application for managing pet adoption and donation campaigns. It includes user authentication, pet management, donation campaigns, user dashboard and an admin dashboard",
+        description: "This project is a web application for managing pet adoption and donation campaigns. It includes user authentication, pet management, donation campaigns, user dashboard and an admin dashboard.",
         liveLink: "https://pet-adoption-a621f.web.app/",
         clientLink: "https://github.com/Humayra-Amin/Pet-Adoption-Platform-client",
         serverLink: "https://github.com/Humayra-Amin/Pet-Adoption-Platform-server",
@@ -33,7 +33,7 @@ const Projects = () => {
                 <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center mb-8 text-yellow-700 playfair">My Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-yellow-400 p-6 rounded-lg">
                     {projects.map((project, index) => (
-                        <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2 hover:shadow-2xl border-2 border-yellow-700">
+                        <div data-aos="flip-up" data-aos-duration="1000" key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2 hover:shadow-2xl border-2 border-yellow-700">
                             <img src={project.image} alt={project.title} className="w-full h-48 object-cover border border-yellow-600 rounded-t-lg"/>
                             <div className="p-6">
                                 <h2 className="text-2xl font-bold mb-2 text-yellow-700 playfair">{project.title}</h2>

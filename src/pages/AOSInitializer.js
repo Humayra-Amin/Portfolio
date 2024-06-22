@@ -1,4 +1,3 @@
-// src/components/AOSInitializer.js
 
 'use client';
 
