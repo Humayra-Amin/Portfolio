@@ -2,6 +2,7 @@ import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import Skills from "../Skills/Skills";
 
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
+            <Skills></Skills>
             <Footer></Footer>
         </div>
     );
