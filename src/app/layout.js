@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
+import AOSInitializer from "@/pages/AOSInitializer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/profile.jpg" />
         <meta property="og:image" content="/profile.jpg" />
       </Head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <AOSInitializer/>
+        {children}</body>
     </html>
   );
 }
