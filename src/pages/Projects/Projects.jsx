@@ -1,4 +1,3 @@
-
 const projects = [
     {
         title: "ArabianDunes Tourism Management",
@@ -25,6 +24,7 @@ const projects = [
         image: "https://i.ibb.co/5Rwy8Fc/project3.png"
     }
 ];
+
 
 const Projects = () => {
     return (
