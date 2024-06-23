@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='container mx-auto'>
             <div className="hero lg:h-[550px] bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <Image src={profile} alt="Profile Picture" className="h-[400px] lg:h-auto md:h-auto lg:max-w-sm lg:mt-12 md:mt-10 md:max-w-sm rounded-full shadow-2xl"/>
+                    <Image src={profile} alt="Profile Picture" className="w-[300px] h-[280px] mt-14 lg:h-auto md:h-auto lg:w-[400px] lg:mt-12 md:mt-14 md:w-[400px] rounded-full shadow-2xl"/>
                     <div className='text-center'>
                         <h1 className="text-5xl lg:text-6xl md:text-6xl font-bold playfair">Humayra Amin</h1>
                         <p className="py-6 font-semibold lg:text-xl md:text-xl  merriweather">Front End Developer | Skilled in HTML, CSS, JavaScript & Frameworks | Transforming Designs into Functional Web Interfaces | Creating Intuitive and Responsive Web Experiences</p>

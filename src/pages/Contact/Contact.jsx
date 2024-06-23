@@ -113,17 +113,17 @@ const Contact = () => {
                     </form>
                 </div>
                 <div data-aos="flip-down" data-aos-duration="1000" className="bg-white p-8 shadow-2xl w-full max-w-lg border-2 border-gray-700 rounded-xl mt-8 lg:mt-0">
-                    <h2 className="text-3xl font-bold text-gray-700 mb-4">Contact Information</h2>
-                    <div className="text-lg text-gray-700 mb-2 flex items-center">
-                        <FaEnvelope className="text-gray-700 mr-2" />
+                    <h2 className="text-3xl font-bold text-gray-700 mb-4 playfair text-center">Contact Information</h2>
+                    <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
+                        <FaEnvelope className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300"/>
                         humaema4576@gmail.com
                     </div>
-                    <div className="text-lg text-gray-700 mb-2 flex items-center">
-                        <FaPhone className="text-gray-700 mr-2" />
+                    <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
+                        <FaPhone className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300"/>
                         +8801554633119
                     </div>
-                    <div className="text-lg text-gray-700 mb-2 flex items-center">
-                        <FaMapMarkerAlt className="text-gray-700 mr-2" />
+                    <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
+                        <FaMapMarkerAlt className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300"/>
                         Kazir Dewari, 1646 SS Khaled Road, Chattogram, Bangladesh
                     </div>
                 </div>
