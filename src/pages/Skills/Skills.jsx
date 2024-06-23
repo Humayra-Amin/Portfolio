@@ -20,7 +20,7 @@ const Skills = () => {
             case "Beginner":
                 return "bg-red-300";
             case "Intermediate":
-                return "bg-gray-300";
+                return "bg-yellow-300";
             case "Advanced":
                 return "bg-blue-500";
             case "Expert":
