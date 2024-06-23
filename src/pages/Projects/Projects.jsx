@@ -30,16 +30,16 @@ const Projects = () => {
     return (
         <div>
             <div className="container mx-auto p-6">
-                <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center mb-8 text-yellow-700 playfair">My Projects</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-yellow-400 p-6 rounded-lg">
+                <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center mb-8 text-gray-700 playfair">Recent Projects</h1>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gray-400 p-6 rounded-lg">
                     {projects.map((project, index) => (
-                        <div data-aos="flip-left" data-aos-duration="1000" key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2 hover:shadow-2xl border-2 border-yellow-700">
-                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover border border-yellow-600 rounded-t-lg"/>
+                        <div data-aos="flip-left" data-aos-duration="1000" key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2 hover:shadow-2xl border-2 border-gray-700">
+                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover border border-gray-600 rounded-t-lg"/>
                             <div className="p-6">
-                                <h2 className="text-2xl font-bold mb-2 text-yellow-700 playfair">{project.title}</h2>
+                                <h2 className="text-2xl font-bold mb-2 text-gray-700 playfair">{project.title}</h2>
                                 <p className="text-gray-700 mb-4 merriweather text-[14px]">{project.description}</p>
                                 <div className="flex justify-between items-center">
-                                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-white  font-semibold hover:text-black border-2 border-yellow-700 p-1 rounded-lg bg-yellow-700">Live Demo</a>
+                                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-white  font-semibold hover:text-black border-2 border-gray-700 p-1 rounded-lg bg-gray-700">Live Demo</a>
                                     <div className="flex space-x-4">
                                         <a href={project.clientLink} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700">
                                             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

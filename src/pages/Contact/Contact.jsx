@@ -1,6 +1,7 @@
 // src/pages/Contact/Contact.jsx
 "use client";
 import { useState } from 'react';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -25,12 +26,12 @@ const Contact = () => {
 
     return (
         <div className="container mx-auto p-6 min-h-screen">
-            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-yellow-700 my-12 playfair">Lets Work Together</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-gray-700 my-12 playfair">Let's Work Together</h1>
             <p className="text-lg text-center text-gray-700 mb-12 playfair font-semibold">
                 If you want to work with me, or have any questions, inquiries, or just want to get in touch, feel free to fill out the form below. I look forward to hearing from you!
             </p>
-            <div className="flex justify-center items-center">
-                <div data-aos="flip-down" data-aos-duration="1000" className="bg-white p-8 shadow-2xl w-full max-w-lg border-2 border-yellow-700 rounded-xl">
+            <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-12">
+                <div data-aos="flip-down" data-aos-duration="1000" className="bg-white p-8 shadow-2xl w-full max-w-lg border-2 border-gray-700 rounded-xl">
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div className="grid grid-cols-2 gap-4">
                             <div>
@@ -106,12 +107,27 @@ const Contact = () => {
                         <div className="text-center">
                             <button
                                 type="submit"
-                                className="px-4 py-2 bg-yellow-700 text-white rounded hover:bg-yellow-800"
+                                className="px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-800"
                             >
                                 Send Message
                             </button>
                         </div>
                     </form>
+                </div>
+                <div data-aos="flip-down" data-aos-duration="1000" className="bg-white p-8 shadow-2xl w-full max-w-lg border-2 border-gray-700 rounded-xl mt-8 lg:mt-0">
+                    <h2 className="text-3xl font-bold text-gray-700 mb-4">Contact Information</h2>
+                    <div className="text-lg text-gray-700 mb-2 flex items-center">
+                        <FaEnvelope className="text-gray-700 mr-2" />
+                        humaema4576@gmail.com
+                    </div>
+                    <div className="text-lg text-gray-700 mb-2 flex items-center">
+                        <FaPhone className="text-gray-700 mr-2" />
+                        +8801554633119
+                    </div>
+                    <div className="text-lg text-gray-700 mb-2 flex items-center">
+                        <FaMapMarkerAlt className="text-gray-700 mr-2" />
+                        Kazir Dewari, 1646 SS Khaled Road, Chattogram, Bangladesh
+                    </div>
                 </div>
             </div>
         </div>

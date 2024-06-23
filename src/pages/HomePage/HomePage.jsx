@@ -10,7 +10,7 @@ import Skills from "../Skills/Skills";
 
 const HomePage = () => {
     return (
-        <div className="bg-gradient-to-b from-yellow-200 to-yellow-50">
+        <div className="bg-gradient-to-b from-gray-200 to-gray-50">
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
