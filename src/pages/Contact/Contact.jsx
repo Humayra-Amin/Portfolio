@@ -25,7 +25,7 @@ const Contact = () => {
 
     return (
         <div className="container mx-auto p-6 min-h-screen">
-            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-yellow-700 my-12 playfair">Let's Work Together</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-yellow-700 my-12 playfair">Lets Work Together</h1>
             <p className="text-lg text-center text-gray-700 mb-12 playfair font-semibold">
                 If you want to work with me, or have any questions, inquiries, or just want to get in touch, feel free to fill out the form below. I look forward to hearing from you!
             </p>
