@@ -17,7 +17,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6">
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6 p-6">
                     <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-yellow-800">
                         <h2 className="text-3xl font-bold mb-4 text-yellow-700 playfair">Interests</h2>
                         <p className='merriweather'>Beyond coding, I have a keen interest in design, which helps me bridge the gap between development and user experience. I also enjoy staying updated with the latest trends in technology and continuously learning new things.</p>
