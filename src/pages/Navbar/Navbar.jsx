@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 text-white bg-gray-700">
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 text-white bg-gray-700 playfair">
                             {
                                 navItems.map((item) => (
                                     <Link href={item.path} key={item.path}>{item.title}</Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white lg:text-[18px]">
-                        <div className='flex items-center space-x-6'>
+                        <div className='flex items-center space-x-6 playfair'>
                             {
                                 navItems.map((item) => (
                                     <Link href={item.path} key={item.path}>{item.title}</Link>
