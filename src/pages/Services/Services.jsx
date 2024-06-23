@@ -12,10 +12,10 @@ const services = [
     {
         category: "Backend Services",
         services: [
-            { title: "API Development", description: "Creating RESTful and GraphQL APIs.", icon: "🔗" },
-            { title: "Database Management", description: "Managing databases using MongoDB, MySQL, etc.", icon: "🗄️" },
+            { title: "API Development", description: "Creating RESTful.", icon: "🔗" },
+            { title: "Database Management", description: "Managing databases using MongoDB", icon: "🗄️" },
             { title: "Authentication & Authorization", description: "Implementing secure authentication and authorization.", icon: "🔒" },
-            { title: "Serverless Functions", description: "Building serverless functions with AWS Lambda and Vercel.", icon: "☁️" },
+            { title: "Serverless Functions", description: "Building serverless functions with Vercel.", icon: "☁️" },
         ],
     },
 ];

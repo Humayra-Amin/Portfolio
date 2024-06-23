@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -123,7 +124,7 @@ const Contact = () => {
                         +8801554633119
                     </div>
                     <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
-                        <FaMapMarkerAlt className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300"/>
+                        <FaLocationDot  className="text-gray-700 mr-6 text-5xl md:text-4xl lg:text-4xl border-2 py-2 px-2.5 rounded-xl border-black bg-gray-300"/>
                         Kazir Dewari, 1646 SS Khaled Road, Chattogram, Bangladesh
                     </div>
                 </div>

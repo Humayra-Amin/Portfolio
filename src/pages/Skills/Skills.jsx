@@ -1,17 +1,17 @@
 
 const skills = [
-    { title: "HTML", description: "Strong foundation in HTML for web development", icon: "🌐", knowledgeRange: "Expert" },
-    { title: "CSS", description: "Strong foundation in CSS for web development", icon: "🎨", knowledgeRange: "Expert" },
-    { title: "JavaScript", description: "Expertise in JavaScript ES6+", icon: "💻", knowledgeRange: "Intermediate" },
-    { title: "React", description: "Experienced in building SPAs using React", icon: "⚛️", knowledgeRange: "Intermediate" },
-    { title: "Next.js", description: "Proficient in server-side rendering with Next.js", icon: "🌐", knowledgeRange: "Beginner" },
-    { title: "Tailwind CSS", description: "Skilled in responsive design using Tailwind CSS", icon: "🎨", knowledgeRange: "Advanced" },
-    { title: "Node.js", description: "Back-end development with Node.js", icon: "🟢", knowledgeRange: "Advanced" },
-    { title: "Git & GitHub", description: "Version control using Git and GitHub", icon: "🐙", knowledgeRange: "Advanced" },
-    { title: "Firebase", description: "Proficient in Firebase for backend services and hosting", icon: "🔥", knowledgeRange: "Advanced" },
-    { title: "Netlify", description: "Skilled in deploying web applications using Netlify", icon: "🌐", knowledgeRange: "Advanced" },
-    { title: "Vercel", description: "Experienced in deploying serverless functions and frontend applications with Vercel", icon: "🚀", knowledgeRange: "Advanced" },
-    { title: "MongoDB", description: "Knowledgeable in MongoDB for database management", icon: "🍃", knowledgeRange: "Intermediate" },
+    { title: "HTML", description: "Advanced-level proficiency in HTML for web development", icon: "🌐", knowledgeRange: "Advanced" },
+    { title: "CSS", description: "Advanced-level proficiency in CSS for web development", icon: "🎨", knowledgeRange: "Advanced" },
+    { title: "JavaScript", description: "Good understanding and application of JavaScript ES6+ features", icon: "💻", knowledgeRange: "Intermediate" },
+    { title: "React", description: "Proficient in building SPAs using React", icon: "⚛️", knowledgeRange: "Intermediate" },
+    { title: "Next.js", description: "Basic proficiency in server-side rendering with Next.js", icon: "🌐", knowledgeRange: "Beginner" },
+    { title: "Tailwind CSS", description: "Advanced skills in responsive design using Tailwind CSS", icon: "🎨", knowledgeRange: "Advanced" },
+    { title: "Node.js", description: "Competent in back-end development with Node.js", icon: "🟢", knowledgeRange: "Intermediate" },
+    { title: "Git & GitHub", description: "Advanced proficiency in version control using Git and GitHub", icon: "🐙", knowledgeRange: "Advanced" },
+    { title: "Firebase", description: "Advanced expertise in using Firebase for backend services and hosting", icon: "🔥", knowledgeRange: "Advanced" },
+    { title: "Netlify", description: "Advanced skills in deploying web applications using Netlify", icon: "🌐", knowledgeRange: "Advanced" },
+    { title: "Vercel", description: "Advanced experience in deploying serverless functions and frontend applications with Vercel", icon: "🚀", knowledgeRange: "Advanced" },
+    { title: "MongoDB", description: "Intermediate knowledge in managing databases with MongoDB", icon: "🍃", knowledgeRange: "Intermediate" },
 ];
 
 const Skills = () => {
