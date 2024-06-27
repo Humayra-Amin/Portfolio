@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 const Navbar = () => {
-
     const navItems = [
         {
             title: "Home",
@@ -9,25 +8,26 @@ const Navbar = () => {
         },
         {
             title: "About",
-            path: "/about"
+            path: "/About"
         },
         {
             title: "Skills",
-            path: "/skills"
+            path: "/Skills"
         },
         {
             title: "Services",
-            path: "/services"
+            path: "/Services"
         },
         {
             title: "Projects",
-            path: "/projects"
+            path: "/Projects"
         },
         {
             title: "Contact",
-            path: "/contact"
+            path: "/Contact"
         },
-    ]
+    ];
+
     return (
         <div className='fixed top-0 left-0 right-0 z-50 shadow-md'>
             <div className="navbar bg-gray-700">
@@ -39,23 +39,25 @@ const Navbar = () => {
                             </svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 text-white bg-gray-700 playfair">
-                            {
-                                navItems.map((item) => (
-                                    <Link href={item.path} key={item.path}>{item.title}</Link>
-                                ))
-                            }
+                            {navItems.map((item) => (
+                                <li key={item.path}>
+                                    <Link href={item.path}>{item.title}</Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
-                    <Link href={"/"} className="btn btn-ghost text-2xl text-white playwrite">Humayra<span className='text-red-600 text-4xl mb-2'>.</span></Link>
+                    <Link href={'/'} className="btn btn-ghost text-2xl text-white playwrite">
+                        Humayra<span className='text-red-600 text-4xl mb-2'>.</span>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white lg:text-[18px]">
                         <div className='flex items-center space-x-6 playfair'>
-                            {
-                                navItems.map((item) => (
-                                    <Link href={item.path} key={item.path}>{item.title}</Link>
-                                ))
-                            }
+                            {navItems.map((item) => (
+                                <li key={item.path}>
+                                    <Link href={item.path}>{item.title}</Link>
+                                </li>
+                            ))}
                         </div>
                     </ul>
                 </div>
