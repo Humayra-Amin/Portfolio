@@ -1,36 +1,10 @@
 import Link from 'next/link';
 
 const Navbar = () => {
-    const navItems = [
-        {
-            title: "Home",
-            path: "/"
-        },
-        {
-            title: "About",
-            path: "/About"
-        },
-        {
-            title: "Skills",
-            path: "/Skills"
-        },
-        {
-            title: "Services",
-            path: "/Services"
-        },
-        {
-            title: "Projects",
-            path: "/Projects"
-        },
-        {
-            title: "Contact",
-            path: "/Contact"
-        },
-    ];
 
     return (
         <div className='fixed top-0 left-0 right-0 z-50 shadow-md'>
-            <div className="navbar bg-gray-700">
+            <div className="navbar bg-gray-500 border-2 border-gray-500 shadow-lg">
                 <div className="navbar-start px-8">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,11 +12,14 @@ const Navbar = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 text-white bg-gray-700 playfair">
-                            {navItems.map((item) => (
-                                <li key={item.path}>
-                                    <Link href={item.path}>{item.title}</Link>
-                                </li>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 text-white bg-gray-500 playfair gap-3">
+                        {navItems.map((item) => (
+                                <Link className="font-semibold hover:text-primary hover:border-gray-200 hover:p-1 hover:rounded-xl hover:bg-gray-200 duration-300"
+                                    href={item.path}
+                                    key={item.path}
+                                >
+                                    {item.title}
+                                </Link>
                             ))}
                         </ul>
                     </div>
@@ -54,9 +31,12 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 text-white lg:text-[18px]">
                         <div className='flex items-center space-x-6 playfair'>
                             {navItems.map((item) => (
-                                <li key={item.path}>
-                                    <Link href={item.path}>{item.title}</Link>
-                                </li>
+                                <Link className="font-semibold hover:text-primary hover:border-gray-200 hover:p-1 hover:rounded-xl hover:bg-gray-200 duration-300"
+                                    href={item.path}
+                                    key={item.path}
+                                >
+                                    {item.title}
+                                </Link>
                             ))}
                         </div>
                     </ul>
@@ -65,5 +45,28 @@ const Navbar = () => {
         </div>
     );
 };
+
+const navItems = [
+    {
+        title: "Home",
+        path: "/"
+    },
+    {
+        title: "Skills",
+        path: "/skills"
+    },
+    {
+        title: "Services",
+        path: "/service"
+    },
+    {
+        title: "Projects",
+        path: "/project"
+    },
+    {
+        title: "Contact",
+        path: "/contact"
+    },
+];
 
 export default Navbar;

@@ -9,9 +9,9 @@ const About = () => {
                     <div className="hero-content flex-col lg:flex-row">
                         <Image src={gif} alt="Profile Picture" className="max-w-sm rounded-lg border-2 border-gray-800" />
                         <div className="lg:ml-6 text-center lg:text-left">
-                            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-gray-700 playfair">About Me</h1>
+                            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-gray-700 playwrite2">About Me</h1>
                             <p className="py-6 merriweather font-medium">
-                                Hello! I am Humayra Amin, a Front End Developer who takes pride in crafting web experiences. 🚀 I&apos;ve sharpened my skills in HTML, CSS3, JavaScript, React.js, Node.js, and MongoDB, bringing a mix of creativity and technical precision to my work. Aside from my technical skills, I bring enthusiasm for teamwork and a belief in the power of communication. 📢 I can contribute to concept, design, and strategy, ensuring every product is not just functional but a joy to use. 🎨🤝 I would love to connect with like-minded professionals or anyone interested in discussing tech, design, or potential collaborations.
+                                Hello! I am Humayra Amin, a Developer who takes pride in crafting web experiences. 🚀 I&apos;ve sharpened my skills in HTML, CSS3, JavaScript, React.js, Node.js, and MongoDB, bringing a mix of creativity and technical precision to my work. Aside from my technical skills, I bring enthusiasm for teamwork and a belief in the power of communication. 📢 I can contribute to concept, design, and strategy, ensuring every product is not just functional but a joy to use. 🎨🤝 I would love to connect with like-minded professionals or anyone interested in discussing tech, design, or potential collaborations.
                             </p>
                         </div>
                     </div>

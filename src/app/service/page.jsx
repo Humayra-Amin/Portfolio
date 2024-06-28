@@ -23,7 +23,8 @@ const services = [
 const Services = () => {
     return (
         <div className="container mx-auto p-6 min-h-screen">
-            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-gray-700 my-12 playfair">Services I Provide</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-gray-700 my-12 playwrite2 mt-20">Services I Provide</h1>
+            <div className="bg-gray-400 p-6 rounded-lg">
             {services.map((category, idx) => (
                 <div key={idx} className="mb-12">
                     <h2 className="text-3xl font-bold text-center text-gray-700 mb-6 underline playfair">{category.category}</h2>
@@ -38,6 +39,8 @@ const Services = () => {
                     </div>
                 </div>
             ))}
+            </div>
+
         </div>
     );
 };

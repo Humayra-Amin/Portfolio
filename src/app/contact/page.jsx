@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import { FaLocationDot } from "react-icons/fa6";
+import { LuSend } from "react-icons/lu";
+
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -25,7 +27,7 @@ const Contact = () => {
 
     return (
         <div className="container mx-auto p-6 min-h-screen">
-            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-gray-700 my-12 playfair">Lets Work Together</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className="text-5xl font-bold text-center text-gray-700 my-12 playwrite2 mt-20">Lets Work Together</h1>
             <p className="text-lg text-center text-gray-700 mb-12 playfair font-semibold">
                 If you want to work with me, or have any questions, inquiries, or just want to get in touch, feel free to fill out the form below. I look forward to hearing from you!
             </p>
@@ -106,25 +108,27 @@ const Contact = () => {
                         <div className="text-center">
                             <button
                                 type="submit"
-                                className="px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-800"
+                                className="px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-800 flex items-center justify-center"
                             >
                                 Send Message
+                                <LuSend className="ml-2 text-xl" />
                             </button>
                         </div>
+
                     </form>
                 </div>
                 <div data-aos="flip-down" data-aos-duration="1000" className="bg-white p-8 shadow-2xl w-full max-w-lg border-2 border-gray-700 rounded-xl mt-8 lg:mt-0">
                     <h2 className="text-3xl font-bold text-gray-700 mb-4 playfair text-center">Contact Information</h2>
                     <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
-                        <FaEnvelope className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300"/>
+                        <FaEnvelope className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300" />
                         humaema4576@gmail.com
                     </div>
                     <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
-                        <FaPhone className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300"/>
+                        <FaPhone className="text-gray-700 mr-4 text-4xl border-2 p-2 rounded-xl border-black bg-gray-300" />
                         +8801554633119
                     </div>
                     <div className="text-lg text-gray-700 mb-2 flex items-center merriweather">
-                        <FaLocationDot  className="text-gray-700 mr-6 text-5xl md:text-4xl lg:text-4xl border-2 py-2 px-2.5 rounded-xl border-black bg-gray-300"/>
+                        <FaLocationDot className="text-gray-700 mr-6 text-5xl md:text-4xl lg:text-4xl border-2 py-2 px-2.5 rounded-xl border-black bg-gray-300" />
                         Kazir Dewari, 1646 SS Khaled Road, Chattogram, Bangladesh
                     </div>
                 </div>
