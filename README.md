@@ -1,7 +1,7 @@
 Hello, This is Humayra Amin a passionate fresher Frontend Developer.
 Know more about me from my portfolio: 
 
-# Live Link of Portfolio: https://portfolio-humayra-amins-projects.vercel.app/
+- Live Link of Portfolio: https://portfolio-humayra-amins-projects.vercel.app/
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
