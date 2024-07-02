@@ -19,7 +19,7 @@ const Banner = () => {
                         <h1 className="text-5xl lg:text-6xl md:text-6xl font-bold playfair">Humayra Amin</h1>
                         <p className="py-6 font-semibold text-2xl lg:text-4xl md:text-3xl  merriweather">&lt;p&gt;<Typewriter words={[" Junior Front End Developer ", " Web Developer ", " React Frontend Developer ", " React Frontend Developer ", " NodeJs Developer ", " MERN Developer ", " Full Stack Developer "]} loop={0} cursor={1}></Typewriter>&lt;/p&gt;</p>
                         <div className='flex justify-center gap-10'>
-                            <a href='https://drive.google.com/file/d/1YRd0jsgcZNezSVTc-gVuxSfWz9siRZPm/view?usp=drive_link'><button className="btn bg-gray-900 border-gray-900 text-white lg:text-xl md:text-xl playfair hover:bg-gray-700 hover:border-gray-700"><span><FaDownload /></span>Download Resume</button></a>
+                            <a href='https://drive.google.com/file/d/11GzZOld_rZVT4TK-kGMUr_Nlnuq6ETzB/view?usp=drive_link'><button className="btn bg-gray-900 border-gray-900 text-white lg:text-xl md:text-xl playfair hover:bg-gray-700 hover:border-gray-700"><span><FaDownload /></span>Download Resume</button></a>
                             <Link href={'/contact'}>
                                 <button className="btn bg-gray-900 border-gray-900 text-white lg:text-xl md:text-xl  playfair hover:bg-gray-700 hover:border-gray-700"><span><MdOutlineContactPage /></span>Get In Touch</button></Link>
                         </div>
