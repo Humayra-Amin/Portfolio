@@ -67,6 +67,10 @@ const navItems = [
         title: "Contact",
         path: "/contact"
     },
+    {
+        title: "Experiences",
+        path: "/experience"
+    },
 ];
 
 export default Navbar;
